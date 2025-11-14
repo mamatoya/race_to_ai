@@ -2,16 +2,11 @@ export interface AIMetrics {
   name: string;
   exchanges: number;
   completionRate: string;
-  authenticity: number;
-  relevance: number;
-  questionRatio: string;
-  technicalAccuracy: number;
-  clarity: number;
-  actionability: number;
-  scaffolding: number;
-  empathy: number;
-  completeness: number;
-  reliability: number;
+  kbRelevance: number;
+  questionsRatio: number;
+  emotionalResponse: number;
+  pedagogicalCompliance: number;
+  scaffoldingQuality: number;
   overall: number;
   teachingStyle: string;
   color: string;
@@ -20,90 +15,65 @@ export interface AIMetrics {
 export const aiData: AIMetrics[] = [
   {
     name: "ChatGPT5 Edu",
-    exchanges: 25,
+    exchanges: 10,
     completionRate: "100%",
-    authenticity: 8,
-    relevance: 7,
-    questionRatio: "10%",
-    technicalAccuracy: 9,
-    clarity: 9,
-    actionability: 9,
-    scaffolding: 7,
-    empathy: 9,
-    completeness: 9,
-    reliability: 9,
-    overall: 8.3,
-    teachingStyle: "Direct Instruction",
+    kbRelevance: 8,
+    questionsRatio: 7,
+    emotionalResponse: 6,
+    pedagogicalCompliance: 7,
+    scaffoldingQuality: 7,
+    overall: 7.0,
+    teachingStyle: "Explain-Then-Practice",
     color: "#10B981"
   },
   {
     name: "Chrome Dreamy",
-    exchanges: 15,
-    completionRate: "60%",
-    authenticity: 6,
-    relevance: 7,
-    questionRatio: "5%",
-    technicalAccuracy: 8,
-    clarity: 8,
-    actionability: 8,
-    scaffolding: 5,
-    empathy: 5,
-    completeness: 7,
-    reliability: 4,
-    overall: 6.5,
-    teachingStyle: "Instructional/Checklist",
+    exchanges: 10,
+    completionRate: "100%",
+    kbRelevance: 4,
+    questionsRatio: 3,
+    emotionalResponse: 7,
+    pedagogicalCompliance: 3,
+    scaffoldingQuality: 4,
+    overall: 4.2,
+    teachingStyle: "Lecture-With-Offers",
     color: "#F59E0B"
   },
   {
     name: "CreateAI",
-    exchanges: 23,
+    exchanges: 10,
     completionRate: "100%",
-    authenticity: 6,
-    relevance: 6,
-    questionRatio: "6%",
-    technicalAccuracy: 8,
-    clarity: 8,
-    actionability: 8,
-    scaffolding: 6,
-    empathy: 6,
-    completeness: 7,
-    reliability: 9,
-    overall: 7.1,
-    teachingStyle: "Direct Problem-Solving",
+    kbRelevance: 8,
+    questionsRatio: 9,
+    emotionalResponse: 8,
+    pedagogicalCompliance: 9,
+    scaffoldingQuality: 9,
+    overall: 8.6,
+    teachingStyle: "Pure Socratic",
     color: "#6366F1"
   },
   {
     name: "NotebookLM",
-    exchanges: 25,
+    exchanges: 10,
     completionRate: "100%",
-    authenticity: 9,
-    relevance: 9,
-    questionRatio: "40%",
-    technicalAccuracy: 9,
-    clarity: 8,
-    actionability: 7,
-    scaffolding: 9,
-    empathy: 8,
-    completeness: 8,
-    reliability: 9,
-    overall: 8.4,
-    teachingStyle: "Socratic/Inquiry-Based",
+    kbRelevance: 9,
+    questionsRatio: 9,
+    emotionalResponse: 8,
+    pedagogicalCompliance: 9,
+    scaffoldingQuality: 9,
+    overall: 8.8,
+    teachingStyle: "Pure Socratic",
     color: "#EC4899"
   },
   {
     name: "Grammarly",
     exchanges: 0,
     completionRate: "N/A",
-    authenticity: 0,
-    relevance: 0,
-    questionRatio: "N/A",
-    technicalAccuracy: 0,
-    clarity: 0,
-    actionability: 0,
-    scaffolding: 0,
-    empathy: 0,
-    completeness: 0,
-    reliability: 0,
+    kbRelevance: 0,
+    questionsRatio: 0,
+    emotionalResponse: 0,
+    pedagogicalCompliance: 0,
+    scaffoldingQuality: 0,
     overall: 0,
     teachingStyle: "N/A - Currently in Alpha Testing",
     color: "#6B7280"
@@ -118,24 +88,24 @@ export const slideContent = {
   },
   overview: {
     title: "Study Overview",
-    description: "All 5 AI systems were tested with identical BIO181 Excel/Statistics questions",
+    description: "All AI systems were tested with identical BIO181 student questions",
     points: [
-      "25 authentic student questions",
-      "Topics: Excel functions, statistics, data visualization",
-      "Same conversation flow for all AIs",
-      "Measured: exchanges, accuracy, teaching style, reliability"
+      "10 authentic student questions from BIO 181 course",
+      "Topics: Normal distributions, residuals, linear models, frequency distributions",
+      "Same prompts for all AIs with proper configuration",
+      "Measured: KB Relevance, Questions Ratio, Emotional Response, Pedagogical Compliance, Scaffolding Quality"
     ]
   },
   keyFindings: {
     winner: "NotebookLM",
-    score: 8.4,
-    runnerUp: "ChatGPT5 Edu",
-    runnerUpScore: 8.3,
+    score: 8.8,
+    runnerUp: "CreateAI",
+    runnerUpScore: 8.6,
     insights: [
-      "NotebookLM: Best knowledge base adherence (9/10)",
-      "ChatGPT5 Edu: Best empathy and actionability",
-      "Chrome Dreamy: 40% technical failure rate",
-      "CreateAI: Consistent but generic responses"
+      "NotebookLM: Best KB integration (9/10) with Pure Socratic method",
+      "CreateAI: Excellent Socratic pedagogy with 'one thing at a time' approach",
+      "ChatGPT5 Edu: Good content but explain-then-practice pattern limits effectiveness",
+      "Chrome Dreamy: Lacks KB integration and pedagogical approach (4.2/10)"
     ]
   }
 };

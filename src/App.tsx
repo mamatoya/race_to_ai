@@ -12,16 +12,16 @@ import './App.css';
 
 function App() {
   const keyInsights = [
-    "NotebookLM leads with excellent knowledge base adherence (9/10) and Socratic teaching method",
-    "ChatGPT5 Edu excels in empathy (9/10) and actionability, providing immediate solutions",
-    "Chrome Dreamy suffered 40% technical failure rate, limiting usability",
-    "Question-to-direction ratio: NotebookLM 40%, others 5-10%"
+    "NotebookLM leads with 8.8/10: Best KB integration (9/10) and Pure Socratic method",
+    "CreateAI scores 8.6/10: Excellent Socratic pedagogy with 'one thing at a time' approach",
+    "ChatGPT5 Edu at 7.0/10: Good content but explain-then-practice pattern limits effectiveness",
+    "Chrome Dreamy at 4.2/10: Lacks KB integration and pedagogical approach"
   ];
 
   const teachingPhilosophies = [
-    "Direct Instruction: ChatGPT5 Edu & CreateAI provide immediate step-by-step answers",
-    "Inquiry-Based: NotebookLM uses Socratic method for deeper learning",
-    "Hybrid Approach: Chrome Dreamy attempts checklists but faces reliability issues"
+    "Pure Socratic (8.6-8.8): NotebookLM & CreateAI ask first, guide to discovery",
+    "Explain-Then-Practice (7.0): ChatGPT5 Edu provides full explanation then asks students to practice",
+    "Lecture-With-Offers (4.2): Chrome Dreamy gives complete answers with rhetorical offers"
   ];
 
   return (

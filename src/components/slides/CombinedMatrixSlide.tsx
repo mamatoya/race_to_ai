@@ -53,13 +53,11 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
   };
 
   const metrics: Metric[] = [
-    { label: 'Authenticity', value: ai.authenticity },
-    { label: 'Relevance', value: ai.relevance },
-    { label: 'Actionability', value: ai.actionability },
-    { label: 'Scaffolding', value: ai.scaffolding },
-    { label: 'Empathy', value: ai.empathy },
-    { label: 'Reliability', value: ai.reliability },
-    { label: 'Subject Accuracy', value: null, note: 'Needs SME evaluation' },
+    { label: 'KB Relevance', value: ai.kbRelevance },
+    { label: 'Questions Ratio', value: ai.questionsRatio },
+    { label: 'Emotional Response', value: ai.emotionalResponse },
+    { label: 'Pedagogical Compliance', value: ai.pedagogicalCompliance },
+    { label: 'Scaffolding Quality', value: ai.scaffoldingQuality },
   ];
 
   return (
