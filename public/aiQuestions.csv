@@ -1,0 +1,144 @@
+#,Question
+1,"About the last workbook, I opened the copy of the work of the previous assignment. The button to increase the amount of decimal places was not clickable."
+2,"About the upper bins, histogram — sometimes we do an overflow. When we do the upper bins in its own column, what's the standard for making those bins?"
+3,"On the data analysis workbook, it wouldn't let me upload a doc."
+4,For attendance you said we need to scan our IDs?
+5,What's the best you can get on that? (referring to DSL pod labs)
+6,Can you help explain what an argument is in Excel?
+7,"For the frequency table, when counting, we count…?"
+8,Do I have to do both methods in the Mission Memo?
+9,I don't know what to do.
+10,"What are the first arguments? (for the norm.dist function) What cell? Oooh it's E45, so then E46, and I just type TRUE?"
+11,Excel doesn't let me put percentages — is it okay for this to be a percentage?
+12,"For number 9: We are both doing the same thing, but…"
+13,Is this the answer or is this the answer?
+14,So basically we are…
+15,I got 0 — what does 0 mean?
+16,"We got to here, is any of this right? I am confused. I don’t know what 5 is asking."
+17,I am still confused.
+18,What formula do we use to find that?
+19,How do we calculate the probability?
+20,What’s next? Standard deviation?
+21,What’s our slope?
+22,How do we calculate the probability?
+23,What happens when there is no cell death? What does that mean for the host?
+24,What do cells need to grow?
+25,How does the presence of the SY-L ligand affect muscle contractions?
+26,Which of these scenarios will result in the activation of apoptosis?
+27,"If I have a mutation when ___ happens, what happens?"
+28,How do we find the joint probability for? What is that?
+29,I'm having trouble getting my bins to not overlap!
+30,I am on Q15 of the SR Act II lab. I’m receiving a negative result from my formula u=aO+b. I’m thinking this is incorrect but not sure how to troubleshoot.
+31,What are the two beaches we are comparing?
+32,How do I determine if the data can be modeled with a normal probability distribution?
+33,What should I do if the data is not normally distributed?
+34,How do I interpret the results of my probability calculations?
+35,What additional factors could influence the decision to move the eggs that are not covered in this assignment?
+36,How do I find the resources and materials?
+37,Can you explain the weekly schedule?
+38,How do I calculate the slope of a linear relationship in Excel?
+39,How do I use Excel to model a linear relationship?
+40,What is the difference between a scatter plot and a line plot?
+41,How do I delete the legend from an Excel chart?
+42,How do I round numbers to the nearest tenth in Excel?
+43,How do I use Excel to estimate the slope of a relationship between two variables?
+44,How do I interpret the slope of a linear model?
+45,How do I use Excel to calculate the change in a dependent variable based on an independent variable?
+46,How do I use Excel to predict the value of a dependent variable in a line plot?
+47,"What is a frequency distribution, and how do I create one?"
+48,How do I use Excel to create a linear model of the relationship between drug dose and a physiological response?
+49,I feel like a lot of this assignment is poorly worded. Question 23 says “is it guaranteed” — am I overthinking this?
+50,I’m having trouble calculating frequencies — it keeps saying 0 even though one value is higher than 220.
+51,How do I find the joint probability again?
+52,What formula do we use to find that?
+53,How do I use Excel to model the relationship between drug dose and blood vessel resistance?
+54,How do I interpret the results of my calculations?
+55,How do I set the bounds for the Y-axis in an Excel chart?
+56,How do I round numbers to a certain decimal place in Excel?
+57,How do I use Excel to calculate indirect effects in a path model?
+58,What happens when there is no cell death? What does that mean for the host?
+59,I'm not sure if I'm pulling the right numbers from the Mission Memo to Excel.
+60,What is the most important variable on beach 2?
+61,"I have a question on step 2 of the initial Excel workbook — when it says to paste the formula in the new cell, do I need to paste it into another cell?"
+62,Then how do I upload my Excel workbook to Canvas?
+63,How should I approach the course? What should my first steps be?
+64,Is the intro survey graded?
+65,Are the Think Ahead and Looking Back activities graded on completion?
+66,How accurate is the Canvas calendar for this course?
+67,"If there are 10 values in the data set, is the median two numbers then?"
+68,Is there an easier way to calculate the median of larger data sets?
+69,"When calculating the median, am I finding the position of the middle data point or its value?"
+70,Do I have to organize my data set to calculate the median or can I leave it as is?
+71,Will having reptiles in my room be an issue for the LockDown Browser?
+72,Did I need to leave a comment for the submission of my tech check?
+73,Is it okay that I submitted the tech check twice after correcting the section number?
+74,How do I find out which TA is mine?
+75,Does everyone have their own TA?
+76,"The data is one standard deviation above the mean — that means the probability is 16%, correct?"
+77,Is one standard deviation always equal to 34 percent?
+78,Where does the 16 percent come from when dealing with the standard normal curve?
+79,"For the Excel workbooks, can I answer the questions using that 16 percent probability when something is 1.2 standard deviations from the mean?"
+80,I’m lost on everything about the frequency distribution — the graphs and all the values.
+81,How do I find the median of a frequency distribution based on a graph alone?
+82,"If I add one point above 10 and remove one below 10 in a frequency distribution, what happens to the probability of finding a value below 10?"
+83,"For questions 13–14 of the first lab, are we using an Excel formula or a calculator?"
+84,"For the Mission Memo questions, are these uploaded somewhere or are they the answers to the Lab 1 quiz?"
+85,Should I watch the DSL video before the Excel workbooks or after — and can I do the workbook without it?
+86,Can I use scratch paper on my quizzes?
+87,Does the question “observing the mean value increasing” mean its frequency?
+88,Why are we dividing to find slope?
+89,How do I know if a question is asking me to find the slope?
+90,What’s the difference between getting the standard deviation for a linear model versus a normal probability distribution?
+91,How do I determine if a value is less or greater than expected in a linear model?
+92,"Why does it say 34% of data is one standard deviation, but 68% is within one?"
+93,"Given standard deviation and mean, how can I find the probability of a value without using Excel?"
+94,What is a residual?
+95,What effect does a residual have on the sum of squares?
+96,What does “continuous variable” mean?
+97,What’s the difference between the two methods to find the median for even vs. odd data sets?
+98,"To get the average of the two middle numbers when finding the mean, do we add them then divide by 2?"
+99,How do I interpret a frequency distribution?
+100,What does 1/N mean in the formula for the mean?
+101,What do all the values represent in the standard deviation formula?
+102,What is the uppercase Σ (E) in the standard deviation formula?
+103,What is the “conclusion assignment” at the end of a module? It says it’s not graded but something is still submitted.
+104,Am I missing anything when the workbook is labeled questions 5–12 and the Mission Memo 4–11?
+105,Do we upload the Mission Memo to Canvas anywhere?
+106,"Why are we using the standard deviation and mean formulas, and how do they relate to the graphs?"
+107,"Do you have an example research paper showing standard deviation, mean, median, and mode in a biology context?"
+108,What does it mean to have a small vs. large standard deviation in a data set?
+109,What’s the best way to prepare for the tests?
+110,What’s the difference between a normal probability distribution and a frequency distribution?
+111,Are there other resources outside “Think Like a Scientist” to help me understand these concepts?
+112,How do I determine the probability of an outcome given the mean and standard deviation?
+113,Is there an equation in Excel to determine the sample size?
+114,Why is my Excel frequency function not working? I only get proper values using the histogram tool.
+115,How do I change the title of my Excel frequency distribution?
+116,How do I edit or add titles to the X and Y axes in my Excel chart?
+117,Do we need to make graphs for frequency distributions of cholesterol levels for both age groups 20–44 and 45–64?
+118,Can you help me with questions 17–19 in the first Act Excel workbook?
+119,How do my answers to SR Act 1 questions 17–18 help with question 19?
+120,"For SR Act 1 questions 2–12, what is the X value from the Mission Memo?"
+121,Is the normal probability column supposed to be a decimal?
+122,"In SR Act 1 question 2, is the graph skewed left or more symmetrical?"
+123,"What’s the difference between right-skewed, left-skewed, and symmetrical?"
+124,What’s the difference between NORM.DIST and 1-NORM.DIST?
+125,"For the seasons where enough Astelar pups survived, are we multiplying total seasons by the survival probability?"
+126,How can I tell if 50% of seasons with enough breeding guarantees enough Astelars in a typical season?
+127,Does NORM.DIST calculate probability greater than or less than X?
+128,"For my reasoning on why enough Astelar pups are or aren’t born, should I mention number of seasons or probability?"
+129,How do we know if a normal probability distribution is a good model for our data?
+130,"If my Excel answers are slightly off from the quiz choices, is that okay?"
+131,How do I find the X-value from the Mission Memo?
+132,Am I supposed to make any scatter plots for the first Act?
+133,Will I be penalized for small rounding differences between my Excel answers and the quiz?
+134,What does it mean to calculate a frequency probability from a frequency distribution?
+135,My chart for Act 1 is sideways — did I do something wrong?
+136,"For Act 1 questions 17–19, where do I find the standard deviation and mean to use?"
+137,"For Act 1 questions 17–19, what even is X?"
+138,What factors would we expect to affect our research in general?
+139,Is there a function in Excel that rounds answers automatically?
+140,"If I put a comment on my submission, will the TA see it?"
+141,"Are the resource guides required reading, or are they covered in the videos?"
+142,Are there any extra resources beyond the Excel tutorial videos to help with formulas and functions?
+143,Why is my frequency formula giving an error when I enter it?

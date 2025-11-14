@@ -1,0 +1,31 @@
+.title-slide {
+  background: linear-gradient(135deg, #8C1D40 0%, #6B1530 100%);
+}
+
+.title-slide .slide-subtitle {
+  white-space: pre-line;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: slideInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.4s;
+}

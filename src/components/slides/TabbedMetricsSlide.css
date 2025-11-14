@@ -1,0 +1,188 @@
+.tabbed-metrics-slide {
+  background: linear-gradient(135deg, #4B5563 0%, #374151 100%);
+}
+
+.tabbed-metrics-slide .slide-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.tab:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tab.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tab-name {
+  font-size: 0.85rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-score {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.metrics-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.ai-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ai-name {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin: 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+.overall-score {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.5rem 1.5rem;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  flex-shrink: 0;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 0.75rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.teaching-style {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.metrics-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metric-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.metric-label {
+  min-width: 140px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.metric-bar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.35rem;
+  position: relative;
+  overflow: hidden;
+  height: 24px;
+}
+
+.metric-bar {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 1s ease-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.metric-value {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.metric-note {
+  flex: 1;
+  font-size: 0.8rem;
+  font-style: italic;
+  opacity: 0.85;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+}

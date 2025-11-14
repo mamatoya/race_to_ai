@@ -1,0 +1,134 @@
+.swim-lanes-slide {
+  background: linear-gradient(135deg, #78BE20 0%, #62A019 100%);
+}
+
+.swim-lanes-slide .slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 1.5rem 2rem;
+}
+
+.swim-lanes-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.swim-lanes-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.swim-lane {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.swim-lane:hover {
+  transform: translateY(-4px);
+}
+
+.lane-number {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(251, 191, 36, 0.9);
+  color: #1e3a8a;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+}
+
+.lane-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  line-height: 1.3;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.lane-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  width: 100%;
+}
+
+.lane-description p {
+  margin: 0;
+}
+
+.lane-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.lane-bullets li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.lane-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.lane-bullets li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fbbf24;
+}
+
+.swim-lanes-footer {
+  margin-top: 1.5rem;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swim-lanes-footer p {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,59 @@
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.slide-content {
+  max-width: 1400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.slide-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.slide-subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.slide-description {
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
