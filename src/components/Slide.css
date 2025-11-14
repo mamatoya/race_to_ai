@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem 3.5rem 3rem;
   box-sizing: border-box;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;

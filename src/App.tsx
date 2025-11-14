@@ -15,7 +15,8 @@ function App() {
     "NotebookLM leads with 8.8/10: Best KB integration (9/10) and Pure Socratic method",
     "CreateAI scores 8.6/10: Excellent Socratic pedagogy with 'one thing at a time' approach",
     "ChatGPT5 Edu at 7.0/10: Good content but explain-then-practice pattern limits effectiveness",
-    "Chrome Dreamy at 4.2/10: Friendly and knows statistics, but doesn't adhere to knowledge base reliably and lacks learner scaffolding"
+    "Chrome Dreamy at 4.2/10: Friendly and knows statistics, but doesn't adhere to knowledge base reliably and lacks learner scaffolding",
+    "⚠️  Current evaluation scores throughout this deck are done with AI and human SME evaluations are just getting started"
   ];
 
   return (

@@ -117,7 +117,7 @@ export const competitiveMatrix: MatrixFeature[] = [
     ratings: {
       "ChatGPT5 Edu": {
         rating: "Low",
-        description: "Lack of access to student usage insights and FERPA compliance"
+        description: "Still waiting on ChatGPT answer."
       },
       "Chrome Dreamy": {
         rating: "High",
@@ -129,11 +129,11 @@ export const competitiveMatrix: MatrixFeature[] = [
       },
       "NotebookLM": {
         rating: "Low",
-        description: "Lack of access to student usage insights and FERPA compliance"
+        description: "Seems to have data options but request additional money"
       },
       "Grammarly": {
         rating: "N/A",
-        description: "Lack of access to student usage insights and FERPA compliance"
+        description: "Currently drafting DSA with intent of data insights."
       }
     }
   }
