@@ -24,7 +24,7 @@ export const competitiveMatrix: MatrixFeature[] = [
       },
       "Chrome Dreamy": {
         rating: "Medium",
-        description: "Can have customer KB but slow to update and manage"
+        description: "Can have custom KB but slow to update and manage"
       },
       "CreateAI": {
         rating: "High",
@@ -91,7 +91,7 @@ export const competitiveMatrix: MatrixFeature[] = [
     ratings: {
       "ChatGPT5 Edu": {
         rating: "High",
-        description: "• OpenAI is moving fast\n• Possible custom tooling\n• No tech debt"
+        description: "• OpenAI is moving fast\n• No tech debt"
       },
       "Chrome Dreamy": {
         rating: "Critical",
@@ -99,15 +99,15 @@ export const competitiveMatrix: MatrixFeature[] = [
       },
       "CreateAI": {
         rating: "Medium",
-        description: "• Newer platform\n• Concerns of tech debt\n• Promising custom tooling"
+        description: "• Newer platform\n• Concerns of tech debt\n• Possible Custom Tooling/Integrations"
       },
       "NotebookLM": {
         rating: "High",
-        description: "• Google is moving fast\n• Possible custom tooling\n• No tech debt"
+        description: "• Google is moving fast\n• Possible Custom Tooling/Integrations\n• No tech debt"
       },
       "Grammarly": {
         rating: "N/A",
-        description: "• Newer platform\n• Concerns of tech debt\n• Promising custom tooling"
+        description: "• Newer platform\n• Concerns of tech debt\n• Possible Custom Tooling/Integrations"
       }
     }
   },
