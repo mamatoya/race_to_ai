@@ -14,39 +14,8 @@ type Metric = { label: string; value: number; note?: undefined } | { label: stri
 
 export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title, aiSystems }) => {
   const [selectedAI, setSelectedAI] = useState(0);
-  const [leftWidth, setLeftWidth] = useState(66.67);
-  const [isDragging, setIsDragging] = useState(false);
+  const leftWidth = 66.67;
   const ai = aiSystems[selectedAI];
-
-  const handleMouseDown = () => {
-    setIsDragging(true);
-  };
-
-  const handleMouseMove = (e: MouseEvent) => {
-    if (isDragging) {
-      const container = document.querySelector('.combined-layout') as HTMLElement;
-      if (container) {
-        const rect = container.getBoundingClientRect();
-        const newLeftWidth = ((e.clientX - rect.left) / rect.width) * 100;
-        setLeftWidth(Math.min(Math.max(newLeftWidth, 30), 70)); // Limit between 30% and 70%
-      }
-    }
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  React.useEffect(() => {
-    if (isDragging) {
-      document.addEventListener('mousemove', handleMouseMove);
-      document.addEventListener('mouseup', handleMouseUp);
-      return () => {
-        document.removeEventListener('mousemove', handleMouseMove);
-        document.removeEventListener('mouseup', handleMouseUp);
-      };
-    }
-  }, [isDragging]);
 
   const getRatingColor = (rating: RatingLevel): string => {
     return ratingColors[rating];
