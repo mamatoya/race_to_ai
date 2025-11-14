@@ -15,7 +15,7 @@ export interface AIMetrics {
 export const aiData: AIMetrics[] = [
   {
     name: "ChatGPT5 Edu",
-    exchanges: 10,
+    exchanges: 13,
     completionRate: "100%",
     kbRelevance: 8,
     questionsRatio: 7,
@@ -28,7 +28,7 @@ export const aiData: AIMetrics[] = [
   },
   {
     name: "Chrome Dreamy",
-    exchanges: 10,
+    exchanges: 13,
     completionRate: "100%",
     kbRelevance: 4,
     questionsRatio: 3,
@@ -41,7 +41,7 @@ export const aiData: AIMetrics[] = [
   },
   {
     name: "CreateAI",
-    exchanges: 10,
+    exchanges: 13,
     completionRate: "100%",
     kbRelevance: 8,
     questionsRatio: 9,
@@ -54,7 +54,7 @@ export const aiData: AIMetrics[] = [
   },
   {
     name: "NotebookLM",
-    exchanges: 10,
+    exchanges: 13,
     completionRate: "100%",
     kbRelevance: 9,
     questionsRatio: 9,
@@ -90,7 +90,7 @@ export const slideContent = {
     title: "Study Overview",
     description: "All AI systems were tested with identical BIO181 student questions",
     points: [
-      "10 authentic student questions from BIO 181 course",
+      "13 authentic student questions from BIO 181 course",
       "Topics: Normal distributions, residuals, linear models, frequency distributions",
       "Same prompts for all AIs with proper configuration",
       "Measured: KB Relevance, Questions Ratio, Emotional Response, Pedagogical Compliance, Scaffolding Quality"

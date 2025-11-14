@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Slide } from '../Slide';
-import { competitiveMatrix, aiNames, aiCompanies, ratingColors } from '../../data/matrixData';
+import { competitiveMatrix, ratingColors } from '../../data/matrixData';
 import type { RatingLevel } from '../../data/matrixData';
 import type { AIMetrics } from '../../data/reportData';
 import './CombinedMatrixSlide.css';
@@ -156,12 +156,12 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
                       <div className="stat-label">Exchanges</div>
                     </div>
                     <div className="stat-item">
-                      <div className="stat-value">{ai.completionRate}</div>
-                      <div className="stat-label">Completion</div>
+                      <div className="stat-value">{ai.overall}</div>
+                      <div className="stat-label">Overall Score</div>
                     </div>
                     <div className="stat-item">
-                      <div className="stat-value">{ai.questionRatio}</div>
-                      <div className="stat-label">Q Ratio</div>
+                      <div className="stat-value">{ai.completionRate}</div>
+                      <div className="stat-label">Completion</div>
                     </div>
                   </div>
 

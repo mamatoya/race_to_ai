@@ -104,7 +104,7 @@ export const AIResponseComparisonSlide: React.FC = () => {
 
         {/* Student Question */}
         <div className="student-question">
-          <div className="question-label">Student Question:</div>
+          <div className="question-label">Student Question #{current.id + 1}:</div>
           <div className="question-text">{current.question}</div>
         </div>
 

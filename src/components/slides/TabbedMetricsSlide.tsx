@@ -7,20 +7,18 @@ interface TabbedMetricsSlideProps {
   aiSystems: AIMetrics[];
 }
 
-type Metric = { label: string; value: number; note?: undefined } | { label: string; value: null; note: string };
+type Metric = { label: string; value: number };
 
 export const TabbedMetricsSlide: React.FC<TabbedMetricsSlideProps> = ({ aiSystems }) => {
   const [activeTab, setActiveTab] = useState(0);
   const ai = aiSystems[activeTab];
 
   const metrics: Metric[] = [
-    { label: 'Authenticity', value: ai.authenticity },
-    { label: 'Relevance', value: ai.relevance },
-    { label: 'Actionability', value: ai.actionability },
-    { label: 'Scaffolding', value: ai.scaffolding },
-    { label: 'Empathy', value: ai.empathy },
-    { label: 'Reliability', value: ai.reliability },
-    { label: 'Subject Accuracy', value: null, note: 'Needs human subject matter experts to evaluate by hand' },
+    { label: 'KB Relevance', value: ai.kbRelevance },
+    { label: 'Questions Ratio', value: ai.questionsRatio },
+    { label: 'Emotional Response', value: ai.emotionalResponse },
+    { label: 'Pedagogical Compliance', value: ai.pedagogicalCompliance },
+    { label: 'Scaffolding Quality', value: ai.scaffoldingQuality },
   ];
 
   return (
@@ -64,8 +62,8 @@ export const TabbedMetricsSlide: React.FC<TabbedMetricsSlideProps> = ({ aiSystem
               <div className="stat-label">Completion</div>
             </div>
             <div className="stat-card">
-              <div className="stat-value">{ai.questionRatio}</div>
-              <div className="stat-label">Question Ratio</div>
+              <div className="stat-value">{ai.overall}</div>
+              <div className="stat-label">Overall Score</div>
             </div>
           </div>
 
@@ -77,20 +75,16 @@ export const TabbedMetricsSlide: React.FC<TabbedMetricsSlideProps> = ({ aiSystem
             {metrics.map((metric) => (
               <div key={metric.label} className="metric-row">
                 <div className="metric-label">{metric.label}</div>
-                {metric.value === null && metric.note ? (
-                  <div className="metric-note">{metric.note}</div>
-                ) : (
-                  <div className="metric-bar-container">
-                    <div
-                      className="metric-bar"
-                      style={{
-                        width: `${metric.value * 10}%`,
-                        backgroundColor: ai.color,
-                      }}
-                    />
-                    <div className="metric-value">{metric.value}/10</div>
-                  </div>
-                )}
+                <div className="metric-bar-container">
+                  <div
+                    className="metric-bar"
+                    style={{
+                      width: `${metric.value * 10}%`,
+                      backgroundColor: ai.color,
+                    }}
+                  />
+                  <div className="metric-value">{metric.value}/10</div>
+                </div>
               </div>
             ))}
           </div>

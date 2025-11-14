@@ -9,15 +9,11 @@ interface MetricsSlideProps {
 
 export const MetricsSlide: React.FC<MetricsSlideProps> = ({ ai }) => {
   const metrics = [
-    { label: 'Authenticity', value: ai.authenticity },
-    { label: 'Relevance', value: ai.relevance },
-    { label: 'Technical Accuracy', value: ai.technicalAccuracy },
-    { label: 'Clarity', value: ai.clarity },
-    { label: 'Actionability', value: ai.actionability },
-    { label: 'Scaffolding', value: ai.scaffolding },
-    { label: 'Empathy', value: ai.empathy },
-    { label: 'Completeness', value: ai.completeness },
-    { label: 'Reliability', value: ai.reliability },
+    { label: 'KB Relevance', value: ai.kbRelevance },
+    { label: 'Questions Ratio', value: ai.questionsRatio },
+    { label: 'Emotional Response', value: ai.emotionalResponse },
+    { label: 'Pedagogical Compliance', value: ai.pedagogicalCompliance },
+    { label: 'Scaffolding Quality', value: ai.scaffoldingQuality },
   ];
 
   return (
@@ -40,8 +36,8 @@ export const MetricsSlide: React.FC<MetricsSlideProps> = ({ ai }) => {
             <div className="stat-label">Completion</div>
           </div>
           <div className="stat-card">
-            <div className="stat-value">{ai.questionRatio}</div>
-            <div className="stat-label">Question Ratio</div>
+            <div className="stat-value">{ai.overall}</div>
+            <div className="stat-label">Overall Score</div>
           </div>
         </div>
 

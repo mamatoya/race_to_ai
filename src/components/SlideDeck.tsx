@@ -9,7 +9,7 @@ export const SlideDeck: React.FC<SlideDeckProps> = ({ children }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showDots, setShowDots] = useState(false);
-  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const scrollTimeoutRef = useRef<number | null>(null);
   const totalSlides = React.Children.count(children);
 
   const scrollToSlide = (index: number) => {
@@ -116,12 +116,9 @@ export const SlideDeck: React.FC<SlideDeckProps> = ({ children }) => {
       )}
 
       <div className="slide-footer-left">
-        v1.0<br />
-        Last Update: 10/28/25
-      </div>
-
-      <div className="slide-footer-right">
-        Report by: Mike Amato
+        v3.0<br />
+        Report by: Mike Amato<br />
+        Last Update: 11/14/25
       </div>
     </div>
   );
