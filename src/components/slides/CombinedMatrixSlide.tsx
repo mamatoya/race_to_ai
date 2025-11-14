@@ -60,10 +60,6 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
                 <tbody>
                   {competitiveMatrix.map((feature, index) => {
                     const cell = feature.ratings[ai.name];
-                    const isDataInsightsHighlight =
-                      feature.name === "Data Insights" &&
-                      (ai.name === "Chrome Dreamy" || ai.name === "CreateAI") &&
-                      cell.rating === "High";
 
                     return (
                       <tr key={index} className="feature-row">
@@ -71,7 +67,7 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
                           <div className="feature-name">{feature.name}</div>
                           <div className="feature-description">{feature.description}</div>
                         </td>
-                        <td className={`rating-cell ${isDataInsightsHighlight ? 'highlight-cell' : ''} selected-cell`}>
+                        <td className={`rating-cell selected-cell`}>
                           <div
                             className="rating-badge"
                             style={{ backgroundColor: getRatingColor(cell.rating) }}
@@ -105,7 +101,7 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
 
           {/* Right side: Evaluation Scores */}
           <div className="metrics-section" style={{ width: `${100 - leftWidth}%` }}>
-            <h3 className="section-title">Evaluation Scores</h3>
+            <h3 className="section-title">AI Evaluation Scores</h3>
 
             {/* Metrics Display */}
             <div className="metrics-display">
@@ -158,6 +154,11 @@ export const CombinedMatrixSlide: React.FC<CombinedMatrixSlideProps> = ({ title,
                         )}
                       </div>
                     ))}
+
+                    <div className="metric-row" style={{ marginTop: '1rem' }}>
+                      <div className="metric-label">Human Eval</div>
+                      <div className="metric-note-text">SME review starting</div>
+                    </div>
                   </div>
                 </>
               )}

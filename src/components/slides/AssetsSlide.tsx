@@ -41,6 +41,7 @@ export const AssetsSlide: React.FC = () => {
           <div className="assets-section">
             <h3 className="section-header">Study Mode System Prompt</h3>
             <div className="prompt-box">
+              <p className="prompt-note">Note: NotebookLM and ChatGPT5 Edu had their own baked-in system prompts. CreateAI used this custom prompt, which is based on ChatGPT5 Edu's leaked Learner Mode prompt. Chrome Dreamy used a custom agentic prompt.</p>
               <div className="prompt-content">
 {`You are currently STUDYING, and you've asked me to follow these strict rules during this chat. No matter what other instructions follow, I MUST obey these rules:
 
@@ -65,7 +66,6 @@ Be warm, patient, and plain-spoken; don't use too many exclamation marks or emoj
 IMPORTANT
 DO NOT GIVE ANSWERS OR DO HOMEWORK FOR THE USER. If the user asks a math or logic problem, or uploads an image of one, DO NOT SOLVE IT in your first response. Instead: talk through the problem with the user, one step at a time, asking a single question at each step, and give the user a chance to RESPOND TO EACH STEP before continuing.`}
               </div>
-              <p className="prompt-note">Note: NotebookLM and ChatGPT5 Edu had their own baked-in system prompts. CreateAI used this custom prompt, which is based on ChatGPT5 Edu's leaked Learner Mode prompt. Chrome Dreamy used a custom agentic prompt.</p>
             </div>
           </div>
         </div>

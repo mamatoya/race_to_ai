@@ -22,11 +22,10 @@ export const ProcessOverviewSlide: React.FC = () => {
             <p className="stage-subtitle">Same BIO181 Content and Questions</p>
           </div>
 
-          {/* Stage 1: User Requirements */}
+          {/* Stage 1: ASU Requirement Matrix */}
           <div className="process-stage">
             <div className="stage-number">1</div>
-            <h3 className="stage-title">User Requirements</h3>
-            <p className="stage-description">Competitive Matrix</p>
+            <h3 className="stage-title">ASU Requirement Matrix</h3>
           </div>
 
           {/* Stage 2: Evaluation */}
@@ -35,7 +34,7 @@ export const ProcessOverviewSlide: React.FC = () => {
             <h3 className="stage-title">Evaluation</h3>
             <ul className="stage-bullets">
               <li>Tested today with 13 authentic student prompts</li>
-              <li>Later: Test with bank of 170 prompts collected from classroom, office hours, AI, and discussion boards</li>
+              <li>Next, testing with bank of 170 prompts collected from classroom, office hours, AI, and discussion boards</li>
             </ul>
           </div>
 
@@ -43,12 +42,15 @@ export const ProcessOverviewSlide: React.FC = () => {
           <div className="process-stage">
             <div className="stage-number">3</div>
             <h3 className="stage-title">Vibe Check</h3>
-            <p className="stage-description">Human Sentiment</p>
+            <ul className="stage-bullets">
+              <li>Student sentiment around AI tools.</li>
+              <li>Large survey being conducted right now.</li>
+            </ul>
           </div>
 
           {/* Result */}
           <div className="process-stage result-stage">
-            <h3 className="result-title">What AI will remain?</h3>
+            <h3 className="result-title">SME Evaluation Underway</h3>
           </div>
         </div>
 

@@ -30,12 +30,12 @@ export const aiData: AIMetrics[] = [
     name: "Chrome Dreamy",
     exchanges: 13,
     completionRate: "100%",
-    kbRelevance: 4,
+    kbRelevance: 6,
     questionsRatio: 3,
     emotionalResponse: 7,
-    pedagogicalCompliance: 3,
-    scaffoldingQuality: 4,
-    overall: 4.2,
+    pedagogicalCompliance: 7,
+    scaffoldingQuality: 8,
+    overall: 6.2,
     teachingStyle: "Lecture-With-Offers",
     color: "#F59E0B"
   },
@@ -105,7 +105,7 @@ export const slideContent = {
       "NotebookLM: Best KB integration (9/10) with Pure Socratic method",
       "CreateAI: Excellent Socratic pedagogy with 'one thing at a time' approach",
       "ChatGPT5 Edu: Good content but explain-then-practice pattern limits effectiveness",
-      "Chrome Dreamy: Lacks KB integration and pedagogical approach (4.2/10)"
+      "Chrome Dreamy: Lacks KB integration and pedagogical approach (6.2/10)"
     ]
   }
 };

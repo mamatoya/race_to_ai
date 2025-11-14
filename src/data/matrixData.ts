@@ -128,11 +128,11 @@ export const competitiveMatrix: MatrixFeature[] = [
         description: "FERPA Compliant Insights on Student Usage"
       },
       "NotebookLM": {
-        rating: "Low",
+        rating: "Medium",
         description: "Seems to have data options but request additional money"
       },
       "Grammarly": {
-        rating: "N/A",
+        rating: "Medium",
         description: "Currently drafting DSA with intent of data insights."
       }
     }

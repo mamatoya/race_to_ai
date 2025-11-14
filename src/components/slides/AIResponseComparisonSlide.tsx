@@ -7,7 +7,6 @@ interface AIResponse {
   createAI: string;
   gpt5Edu: string;
   notebookLM: string;
-  grammarly: string;
 }
 
 interface ComparisonData {
@@ -147,16 +146,6 @@ export const AIResponseComparisonSlide: React.FC = () => {
             </div>
             <div className="response-content">
               {current.responses.notebookLM}
-            </div>
-          </div>
-
-          <div className="response-card grammarly-card">
-            <div className="response-header">
-              <div className="ai-name">Grammarly</div>
-              <div className="ai-company">Grammarly</div>
-            </div>
-            <div className="response-content coming-soon">
-              {current.responses.grammarly}
             </div>
           </div>
         </div>
