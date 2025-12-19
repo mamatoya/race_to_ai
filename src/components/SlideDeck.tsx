@@ -123,9 +123,9 @@ export const SlideDeck: React.FC<SlideDeckProps> = ({ children }) => {
       )}
 
       <div className="slide-footer-left">
-        v3.0<br />
+        v6.7 ¯\_(ツ)_/¯<br />
         Report by: Mike Amato<br />
-        Last Update: 11/14/25
+        Last Update: 12/18/25
       </div>
     </div>
   );
