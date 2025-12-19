@@ -49,6 +49,13 @@ export const SlideDeck: React.FC<SlideDeckProps> = ({ children }) => {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [currentSlide, totalSlides]);
 
+  // Reset to first slide on mount
+  useEffect(() => {
+    if (containerRef.current) {
+      containerRef.current.scrollTop = 0;
+    }
+  }, []);
+
   // Update current slide based on scroll position
   useEffect(() => {
     const container = containerRef.current;

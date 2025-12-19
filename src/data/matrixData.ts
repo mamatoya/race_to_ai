@@ -36,7 +36,7 @@ export const competitiveMatrix: MatrixFeature[] = [
       },
       "Grammarly": {
         rating: "N/A",
-        description: "Currently Alpha Testing; custom agents 7+ months out until beta"
+        description: "Currently Alpha Testing; custom agents 5.5 months out until beta"
       }
     }
   },
@@ -79,7 +79,7 @@ export const competitiveMatrix: MatrixFeature[] = [
         rating: "N/A",
         description: [
           "Currently Beta Testing",
-          "General use Grammarly AI for students 6+ months out",
+          "General use Grammarly AI for students 4.5 months out",
           "Already have some market adoption"
         ]
       }

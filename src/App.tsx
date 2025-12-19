@@ -7,15 +7,13 @@ import { ProcessOverviewSlide } from './components/slides/ProcessOverviewSlide';
 import { AssetsSlide } from './components/slides/AssetsSlide';
 import { SwimLanesSlide } from './components/slides/SwimLanesSlide';
 import { AIResponseComparisonSlide } from './components/slides/AIResponseComparisonSlide';
+import { DreamyWorldSlide } from './components/slides/DreamyWorldSlide';
 import { aiData, slideContent } from './data/reportData';
 import './App.css';
 
 function App() {
   const keyInsights = [
-    "NotebookLM leads with 8.8/10: Best KB integration (9/10) and Pure Socratic method",
-    "CreateAI scores 8.6/10: Excellent Socratic pedagogy with 'one thing at a time' approach",
-    "ChatGPT5 Edu at 7.0/10: Good content but explain-then-practice pattern limits effectiveness",
-    "Chrome Dreamy at 6.2/10: Friendly and knows statistics, but doesn't adhere to knowledge base reliably and lacks questioning.",
+    "This round of testing found NotebookLM and CreateAI guide learning through questions; ChatGPT Edu and Chrome Dreamy tend to scaffold first and ask later.",
     "⚠️  Current evaluation scores throughout this deck are done with AI and human SME evaluations are just getting started"
   ];
 
@@ -75,6 +73,8 @@ function App() {
           }
         ]}
       />
+
+      <DreamyWorldSlide />
     </SlideDeck>
   );
 }
